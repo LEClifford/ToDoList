@@ -1,0 +1,91 @@
+
+
+body{
+  background-color: rgb(78, 71, 71);
+}
+
+.todoApp{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+h1{
+  font-size: 48px;
+}
+
+button{
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+ 
+}
+
+.add-button{
+  background-color: green;
+  margin-left: 20px;
+}
+
+.add-button:hover{
+  background-color: rgb(2, 85, 2);
+}
+
+.delete-button{
+  background-color: red;
+  margin-left: 20px;
+}
+
+.delete-button:hover{
+  background-color: rgb(190, 2, 2);
+}
+
+.move-button{
+  background-color: blue;
+  margin-left: 2px;
+}
+
+.move-button:hover{
+  background-color: rgb(3, 3, 211);
+}
+
+.down-button{
+  background-color: purple;
+  margin-left: 2px;
+}
+
+.down-button:hover{
+  background-color: rgb(99, 2, 99);
+}
+
+input[type="text"]{
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 10px;
+  border: 2px solid hsla(0, 0%, 47%, 0.5);
+  border-radius: 5px;
+  color: hsla(0, 0%, 0%, 0.5);
+}
+
+ol{
+  padding: 0;
+}
+
+li{
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.text{
+  flex: 1;
+}
+
