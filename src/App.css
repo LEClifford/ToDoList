@@ -1,25 +1,36 @@
 
 
 body{
-  background-color: rgb(78, 71, 71);
+  background-color: #56443f;
+  margin: o;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .todoApp{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
-  margin-top: 100px;
-  margin-left: 200px;
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #8b645a;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 h1{
   font-size: 48px;
+  color: #f1f0e2;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 button{
   font-size: 16px;
   font-weight: bold;
   padding: 10px 20px;
-  color: white;
+  color: #f1f0e2;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -28,39 +39,39 @@ button{
 }
 
 .add-button{
-  background-color: green;
+  background-color: #a47864 ;
   margin-left: 20px;
 }
 
 .add-button:hover{
-  background-color: rgb(2, 85, 2);
+  background-color: #886555 ;
 }
 
 .delete-button{
-  background-color: red;
+  background-color: #C39D88;
   margin-left: 20px;
 }
 
 .delete-button:hover{
-  background-color: rgb(190, 2, 2);
+  background-color: #a78574;
 }
 
 .move-button{
-  background-color: blue;
+  background-color: #C39D88;
   margin-left: 2px;
 }
 
 .move-button:hover{
-  background-color: rgb(3, 3, 211);
+  background-color: #a78574;
 }
 
 .down-button{
-  background-color: purple;
+  background-color: #C39D88;;
   margin-left: 2px;
 }
 
 .down-button:hover{
-  background-color: rgb(99, 2, 99);
+  background-color: #a78574;
 }
 
 input[type="text"]{
@@ -69,6 +80,7 @@ input[type="text"]{
   padding: 10px;
   border: 2px solid hsla(0, 0%, 47%, 0.5);
   border-radius: 5px;
+  background-color: #a28776;
   color: hsla(0, 0%, 0%, 0.5);
 }
 

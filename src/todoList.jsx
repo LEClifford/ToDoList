@@ -55,7 +55,7 @@ function ToDoList() {
         <button 
         className="add-button" 
         onClick={addTask}>
-          Add To Do
+          Add
           </button>
       </div>
       <ol>
